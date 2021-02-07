@@ -6,13 +6,13 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
+
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView Temp_in_Celcius;
-    private EditText Result;
+    private TextView Result;
     Double Result_in_fareheit;
     private Button Convert;
 
